@@ -2,13 +2,15 @@
 
 📊 一个用于生成比特币减半周期对比图表的简单工具，支持多种输出格式。
 
+![alt text](assets/image.png)
+
 ## ✨ 功能特点
 
 - 📈 展示多个比特币减半周期的价格走势对比
 - 🔍 突出显示关键时间点（减半时间和周期高点）
 - 💡 支持交互式悬停信息，显示详细的时间和价格数据
 - 🎨 使用清晰的浅色主题，提高可读性
-- 📑 支持多种输出格式：HTML（交互式）、PNG、JPG、SVG、PDF
+- 📑 生成交互式图表：HTML
 
 ## 🛠️ 安装依赖
 
@@ -30,10 +32,6 @@ python btc_cycles_plot.py
 
 脚本会生成以下文件：
 - `btc_cycles_comparison.html` - 交互式图表
-- `btc_cycles_comparison.png` - PNG 格式静态图片
-- `btc_cycles_comparison.jpg` - JPG 格式静态图片
-- `btc_cycles_comparison.svg` - SVG 格式矢量图
-- `btc_cycles_comparison.pdf` - PDF 格式文档
 
 ## 📋 数据来源
 
